@@ -2,12 +2,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Cabin&display=swap');
 
 body{
-    background;
+    min-height: 1000px;
 }
-#biografia{
-    min-height:90px;
-    padding:10px;
+
+#img-card{
+    
+    height:200px; 
 }
+
+header div h1{
+    font-family:'Cabin', sans-serif;
+}
+
+/* CLASS */
 
 .nav-link:hover, .navbar-brand:hover{
     color:#b638ff !important;
@@ -17,9 +24,7 @@ body{
     font-size:20px;
 }
 
-header div h1{
-    font-family:'Cabin', sans-serif;
-}
+/* MOBILE */
 
 @media screen and (max-width:991px){
 
