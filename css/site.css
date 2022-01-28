@@ -1,7 +1,50 @@
-.nav-link:hover {
-    color: #ffffff !important;
-  }
+/* fonts link */
+@import url('https://fonts.googleapis.com/css2?family=Cabin&display=swap');
+
+body{
+    background;
+}
+#biografia{
+    min-height:90px;
+    padding:10px;
+}
+
+.nav-link:hover, .navbar-brand:hover{
+    color:#b638ff !important;
+}
 
 .fs-20{
-    font-size: 20px;
+    font-size:20px;
 }
+
+header div h1{
+    font-family:'Cabin', sans-serif;
+}
+
+@media screen and (max-width:991px){
+
+    .px-5{
+        padding:0 !important;
+        margin:0 !important;
+    }
+
+    .pe-5{
+        padding:0 !important;
+    }
+
+    .mx-5{
+        margin:0 !important;
+    }
+
+    .navbar-dark .navbar-toggler {
+        color: #1a1524;
+        border:#1a1524;
+    }
+
+    .navbar-dark .navbar-toggler:hover {
+        color: #b638ff;
+        border:#b638ff;
+    }
+}
+
+

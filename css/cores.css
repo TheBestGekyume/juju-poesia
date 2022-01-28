@@ -1,13 +1,27 @@
-.bg-brown{
-    background-color: #52280c;
+.bg-purple{
+    background-color: #757575;  /* body */
 }
-.brown{
-    color: #52280c;
+.purple{
+    color: #999897;
 }
 
-.bg-brown-2{
-    background-color: #44210a;
+.bg-purple-2{
+    background-color: #aea4b8;   /* text */
 }
-.brown-2{
-    color: #44210a;
+.purple-2{
+    color: #332116;
+}
+
+.bg-purple-3{
+    background-color: #1a1524;   /* nav */
+}
+.purple-3{
+    color: #1a1524;
+}
+
+.bg-preto{
+    background-color: #000000a9;
+}
+.preto{
+    color: #000000a9;
 }
