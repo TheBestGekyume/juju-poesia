@@ -2,14 +2,14 @@
     background-color: #757575;  /* body */
 }
 .purple{
-    color: #999897;
+    color: #757575;
 }
 
 .bg-purple-2{
     background-color: #aea4b8;   /* text */
 }
 .purple-2{
-    color: #332116;
+    color: #aea4b8;
 }
 
 .bg-purple-3{
@@ -19,9 +19,22 @@
     color: #1a1524;
 }
 
+.bg-purple-4{
+    background-color: #5237ca81;
+}
+
+.bg-yellow{
+    background-color: #fff04d;
+}
+
+.yellow{
+    color: #fff04d;
+}
 .bg-preto{
     background-color: #000000a9;
 }
 .preto{
     color: #000000a9;
 }
+
+

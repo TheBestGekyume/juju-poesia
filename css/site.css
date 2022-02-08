@@ -2,31 +2,60 @@
 @import url('https://fonts.googleapis.com/css2?family=Cabin&display=swap');
 
 body{
-    min-height: 1000px;
+    min-height: 100px;
 }
 
-#img-card{
-    
-    height:200px; 
-}
-
-header div h1{
+.cabin-font{
     font-family:'Cabin', sans-serif;
+}
+
+.card:hover{
+    background-color: #e9eb76;
+}
+
+#Home:hover{
+    color: #fbff00 !important;
+}
+
+footer{
+    margin-top: px;
+}
+
+i{
+    font-size: 50px;
+    color: #000000a9;
+}
+
+i:hover{
+    color: #fbff00a1;
 }
 
 /* CLASS */
 
 .nav-link:hover, .navbar-brand:hover{
-    color:#b638ff !important;
+    color:#c300ff !important;
 }
 
+
 .fs-20{
-    font-size:20px;
+    font-size: 20px;
+}
+
+.fs-card{
+    font-size:32px;
+}
+
+.card:hover{
+    border: solid 3px #1a1524;
 }
 
 /* MOBILE */
 
 @media screen and (max-width:991px){
+
+    .fs-card{
+        font-size:22px;
+    }
 
     .px-5{
         padding:0 !important;
