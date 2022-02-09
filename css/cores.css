@@ -1,5 +1,5 @@
 .bg-purple{
-    background-color: #757575;  /* body */
+    background-image: linear-gradient(to bottom right, #f8f847, #bd7bff); /* body */
 }
 .purple{
     color: #757575;

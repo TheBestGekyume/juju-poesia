@@ -45,10 +45,6 @@ i:hover{
     font-size:32px;
 }
 
-.card:hover{
-    border: solid 3px #1a1524;
-}
-
 /* MOBILE */
 
 @media screen and (max-width:991px){
