@@ -2,26 +2,56 @@
 @import url('https://fonts.googleapis.com/css2?family=Cabin&display=swap');
 
 body{
-    background;
-}
-#biografia{
-    min-height:90px;
-    padding:10px;
+    min-height: 100px;
 }
 
-.nav-link:hover, .navbar-brand:hover{
-    color:#b638ff !important;
-}
-
-.fs-20{
-    font-size:20px;
-}
-
-header div h1{
+.cabin-font{
     font-family:'Cabin', sans-serif;
 }
 
+.card:hover{
+    background-color: #e9eb76;
+}
+
+#Home:hover{
+    color: #fbff00 !important;
+}
+
+footer{
+    margin-top: px;
+}
+
+i{
+    font-size: 50px;
+    color: #000000a9;
+}
+
+i:hover{
+    color: #fbff00a1;
+}
+
+/* CLASS */
+
+.nav-link:hover, .navbar-brand:hover{
+    color:#c300ff !important;
+}
+
+
+.fs-20{
+    font-size: 20px;
+}
+
+.fs-card{
+    font-size:32px;
+}
+
+/* MOBILE */
+
 @media screen and (max-width:991px){
+
+    .fs-card{
+        font-size:22px;
+    }
 
     .px-5{
         padding:0 !important;
