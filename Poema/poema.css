@@ -1,5 +1,85 @@
 input, textarea{
-    background: linear-gradient(#ffffff,#e4e4e4 ) !important;
-    border: #e2e2e2;
-    color: #2a013a !important;
+    background: linear-gradient(#111111,#353535) !important;
+
+    border: #242424 !important;
+    color: #ffffff !important;
+}
+
+/* fonts link */
+@import url('https://fonts.googleapis.com/css2?family=Cabin&display=swap');
+
+body{
+    min-height: 100px;
+}
+
+.cabin-font{
+    font-family:'Cabin', sans-serif;
+}
+
+.card:hover{
+    background-color: #e9eb76;
+}
+
+#Home:hover{
+    color: #fbff00 !important;
+}
+
+footer{
+    margin-top: px;
+}
+
+i{
+    font-size: 50px;
+    color: #000000a9;
+}
+
+i:hover{
+    color: #fbff00a1;
+}
+
+/* CLASS */
+
+.nav-link:hover, .navbar-brand:hover{
+    color:#c300ff !important;
+}
+
+
+.fs-20{
+    font-size: 20px;
+}
+
+.fs-card{
+    font-size:32px;
+}
+
+/* MOBILE */
+
+@media screen and (max-width:991px){
+
+    .fs-card{
+        font-size:22px;
+    }
+
+    .px-5{
+        padding:0 !important;
+        margin:0 !important;
+    }
+
+    .pe-5{
+        padding:0 !important;
+    }
+
+    .mx-5{
+        margin:0 !important;
+    }
+
+    .navbar-dark .navbar-toggler {
+        color: #1a1524;
+        border:#1a1524;
+    }
+
+    .navbar-dark .navbar-toggler:hover {
+        color: #b638ff;
+        border:#b638ff;
+    }
 }
