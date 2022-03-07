@@ -13,45 +13,39 @@
 
     <nav class="navbar navbar-expand-lg navbar-dark bg-purple-3">
         <div class="container">
-            <a id="Home" class="navbar-brand" href="../index.html"><strong>Julia Maia</strong></a>
-            <!-- <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button> 
-            <!-- <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0 px-5 mx-5">
-                    <li class="nav-item pe-5 ps-5 mx-5"> <a  class="nav-link" href="../index.html/#biografia">Biografia</a> </li>
-                    <li class="nav-item pe-5 mx-5"> <a class="nav-link" href="../index.html/#poesias">Poesias</a> </li>
-                    <li class="nav-item mx-5"> <a class="nav-link" href="../index.html/#footer">Contato</a> </li>
-                </ul>
-            </div> --> 
+            <a id="Home" class="navbar-brand" href="../index.html"><h1 class="fw-bold">Julia Maia</h1></a>
         </div>
     </nav>
 
-    <form class="container mt-4">
-        <div class="form-group">
+    <form class="container mt-4 fs-form">
+
+    <div class="cabin-font bg-purple-2 preto p-4 mt-5 rounded-3">
+        <div class="form-group mb-3">
             <label for="name" class="form-label">Nome do Poema</label>
             <input type="text" class="form-control" id="title" placeholder="Digite o título do poema">
         </div>
 
-        <div class="form-group">
+        <div class="form-group mb-3">
             <label for="image" class="form-label">Imagem do Poema</label>
-            <input type="text" class="form-control" id="image" placeholder="Insira uma imagem que represente o poema">
+            <input type="file" class="form-control" id="image" placeholder="Insira uma imagem que represente o poema">
         </div>
 
-        <div class="form-group">
+        <div class="form-group mb-3">
             <label for="date" class="form-label">Data</label>
             <input type="date" class="form-control" id="date" placeholder="dd/mm/aaaa">
         </div>
 
-        <div class="form-group">
+        <div class="form-group mb-3">
             <label for="text" class="form-label">Poema</label>
             <textarea type="text" class="form-control" id="text" rows="10" placeholder="Escreva o Poema aqui"> </textarea>
         </div>
 
-        <div class="my-3">
-            <button type="button" class="btn btn-dark" onclick="poemaController.adicionar()">Enviar</button>
-            <!-- <button type="button" class="btn btn-danger">Cancelar</button> -->
+        <div class="mt-5">
+            <button id="button_save" type="button" class="button btn btn-dark btn-lg px-5" onclick="poemaController.adicionar()">Salvar</button>
+            <button id="button_dell" type="button" class="button btn btn-dark btn-lg px-5 mx-3" onclick="poemaController.excluir()">Deletar</button>
+            <button id="button_list" type="button" class="button btn btn-dark btn-lg px-5 mx-3" onclick="poemaController.getAllPoema()">Listar Poemas</button>
         </div>
+        </div> 
     </form>
     <div class="py-5 my-3"></div>
 </body>
