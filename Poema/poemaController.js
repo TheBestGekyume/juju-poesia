@@ -7,7 +7,7 @@ const poemaController = {
             poema.title = document.getElementById("title").value;
             poema.image = document.getElementById("image").value;
             poema.date = document.getElementById("date").value;
-            poema.text = document.getElementById("text").value;
+            poema.text = document.getElementById("textP").value;
             poema.add(poema);
             alert("Poema Adicionado!");
             this.getAllPoema();
@@ -29,10 +29,21 @@ const poemaController = {
 
         tabela += "</table>";
         document.getElementById("listaPoemas").innerHTML = tabela
+        },
+
+    validRequired:function () {
+        var campos = document.getElementsByClassName("required") ; //document.querySelectorAll(".required")
+        var erros = document.getElementsByClassName("textErro");
+        
+        for (var index = 0; index < campos.length; index++) {
+            if (campos[index].value == "") {
+                erros[index].style = "display: block";
+            } else {
+                erros[index].style = "display: none";
+            }
         }
     }
-
-  
+}
 
 
     //listar poemas

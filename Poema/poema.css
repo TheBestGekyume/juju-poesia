@@ -23,7 +23,11 @@ input, textarea{
     color: #ffffff !important;
 }
 
-
+.textErro{
+    display: none;
+    color: #920000;
+    font-weight: bold;
+}
 
 /* CLASS */
 
@@ -41,7 +45,7 @@ input, textarea{
 }
 
 button{
-    border-bottom:solid #1a1a1a 5px !important;
+    border-bottom:solid 5px #1a1a1a  !important;
 }
 
 .fs-form{

@@ -17,27 +17,31 @@
         </div>
     </nav>
 
-    <form class="container mt-4 fs-form">
+    <form class="container mt-4 fs-form" onchange="produtoController.validRequired()" >
 
-    <div class="cabin-font bg-purple-2 preto p-4 mt-5 rounded-3">
+    <div class= "cabin-font bg-purple-2 preto p-4 mt-5 rounded-3">
         <div class="form-group mb-3">
             <label for="name" class="form-label">Nome do Poema</label>
-            <input type="text" class="form-control" id="title" name="title" placeholder="Digite o título do poema">
+            <input type="text" class="form-control required" id="title" name="title" placeholder="Digite o título do poema">
+            <span class="textErro">digite o título do poema.</span>
         </div>
 
         <div class="form-group mb-3">
             <label for="image" class="form-label">Imagem do Poema</label>
-            <input type="file" class="form-control" id="image" name="image" placeholder="Insira uma imagem que represente o poema">
+            <input type="file" class="form-control required" id="image" name="image" placeholder="Insira uma imagem que represente o poema">
+            <span class="textErro">insira uma imagem para representar o poema.</span>
         </div>
 
         <div class="form-group mb-3">
             <label for="date" class="form-label">Data</label>
-            <input type="date" class="form-control" id="date" name="date" placeholder="dd/mm/aaaa">
+            <input type="date" class="form-control required" id="date" name="date" placeholder="dd/mm/aaaa">
+            <span class="textErro">insira a data que o poema foi criado.</span>
         </div>
 
         <div class="form-group mb-3">
             <label for="text" class="form-label">Poema</label>
-            <textarea type="text" class="form-control" id="text" name="text" rows="10" placeholder="Escreva o Poema aqui"> </textarea>
+            <textarea type="text" class="form-control required" id="textP" name="text" rows="10" placeholder="Escreva o Poema aqui"> </textarea>
+            <span class="textErro">escreva o conteudo do poema.</span>
         </div>
 
         <div class="mt-5">

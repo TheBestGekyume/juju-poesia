@@ -47,19 +47,21 @@ class Poema {
 
     //validar dados
 
-    validData(){
-        var erros = ""
+    validData() {
+        var erros = "";
         if(!this.title || this.title == "" ){
-            erros+="Poema sem título. \n"
+            erros += "Poema sem título. \n"
         }if(!this.image || this.image == "" ){
-            erros+="Poema sem imagem. \n"
+            erros += "Poema sem imagem. \n"
         }if(!this.date || this.date == "" ){
-            erros+="Poema sem data. \n"
+            erros += "Poema sem data. \n"
         }if(!this.text || this.text == "" ){
-            erros+="Poema sem texto. \n"
+            erros += "Poema sem texto. \n"
         }
-        if(erros!= ""){
+        if(erros != ""){
             throw erros;
+            
         }
     }
-} 
+}
+
