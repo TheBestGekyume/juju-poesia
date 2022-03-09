@@ -6,8 +6,13 @@ body{
     min-height: 100px;
 }
 
-.cabin-font{
-    font-family:'Cabin', sans-serif;
+table, th ,td{
+    border:solid 1px #4ddd78 !important;
+    color: #dfdfdf;
+}
+
+th{
+    color: rgb(0, 255, 76) !important;
 }
 
 
@@ -21,6 +26,11 @@ input, textarea{
 
 
 /* CLASS */
+
+.cabin-font{
+    font-family:'Cabin', sans-serif;
+}
+
 
 .nav-link:hover, .navbar-brand:hover{
     color:#c300ff !important;
@@ -42,11 +52,11 @@ button{
 
 @media screen and (max-width:991px){
 
-    /* #button_del , #button_save{
-        margin:0 ;
-        padding: 0;
+    #button_dell , #button_save, #button_list{
+        margin:10px 40px 10px 20px !important;
+        padding: 10px 15px !important;
 
-    } */
+    }
 
     .navbar-dark .navbar-toggler {
         color: #1a1524;
