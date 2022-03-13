@@ -7,14 +7,21 @@ body{
 }
 
 table, th ,td{
-    border:solid 1px #4ddd78 !important;
+    border:solid 2px #c8d14d !important;
     color: #dfdfdf;
 }
 
 th{
-    color: rgb(0, 255, 76) !important;
+    color: #eeff00 !important;
 }
 
+i{
+    color: #fbff00af;
+}
+
+i:hover{
+    color: #fbff00ea;
+}
 
 input, textarea{
     background: linear-gradient(#111111,#353535) !important;
@@ -27,6 +34,7 @@ input, textarea{
     display: none;
     color: #920000;
     font-weight: bold;
+    font-size: 20px;
 }
 
 /* CLASS */
