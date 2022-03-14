@@ -5,12 +5,12 @@ body{
     min-height: 100px;
 }
 
-.cabin-font{
-    font-family:'Cabin', sans-serif;
-}
-
-.card:hover{
-    background-color: #e9eb76;
+#biografia{
+    background: #7274601a;
+box-shadow: 0 8px 32px 0 rgba(220, 233, 44, 0.459);
+backdrop-filter: blur( 3px );
+-webkit-backdrop-filter: blur( 3px );
+border-radius: 10px;
 }
 
 #Home:hover{
@@ -31,6 +31,26 @@ i:hover{
 }
 
 /* CLASS */
+
+.cabin-font{
+    font-family:'Cabin', sans-serif;
+}
+.card{
+    background: #9013fe3a!important;
+    box-shadow: 0 8px 32px 0 #1f268748!important;
+    backdrop-filter: blur( 20px )!important;
+    -webkit-backdrop-filter: blur( 20px )!important;
+    border-radius: 10px!important;
+    border: 1px solid rgba( 255, 255, 255, 0.18 )!important;
+}
+.card:hover{
+    background: #9013fe50!important;
+    box-shadow: 0 8px 32px 0 #1f268794!important;
+    backdrop-filter: blur( 20px )!important;
+    -webkit-backdrop-filter: blur( 20px )!important;
+    border-radius: 10px!important;
+    border: 0px solid rgba( 255, 255, 255, 0.18 )!important;
+}
 
 .nav-link:hover, .navbar-brand:hover{
     color:#c300ff !important;
